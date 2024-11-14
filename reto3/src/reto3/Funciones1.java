@@ -6,6 +6,7 @@ import java.time.temporal.ChronoUnit;
 import java.util.Scanner;
 
 public class Funciones1 {
+	/*
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		LocalDate fecha1 = LocalDate.now();
@@ -13,7 +14,7 @@ public class Funciones1 {
 		LocalDate ld = LocalDate.now();
 		diferenciaMeses(fecha1, fecha2, sc);
 	}
-
+	*/
 	public static void diferenciaMeses(LocalDate fecha1, LocalDate fecha2, Scanner sc) {
 		int meses = (int) ChronoUnit.MONTHS.between(fecha1, fecha2);
 		System.out.println("La diferencia de meses entre las dos fechas es:" + meses);
